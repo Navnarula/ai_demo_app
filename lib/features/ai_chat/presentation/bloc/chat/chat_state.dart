@@ -47,5 +47,5 @@ class ChatError extends ChatState {
   });
 
   @override
-  List<Object> get props => [person ?? '', messages, this.message];
+  List<Object> get props => [person ?? '', messages, message];
 }
